@@ -1,10 +1,10 @@
 .card {
   box-sizing: border-box;
   width: 200px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $border-color;
   border-radius: 5px;
   padding: 32px 16px 16px;
-  background: #ffffff;
+  background: $bckground-white-color;
 
   &__image {
     display: block;
@@ -71,12 +71,12 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    color: #ffffff;
+    color: $bckground-white-color;
     background-color: $main-color;
-  }
 
-  &__buy:hover {
-    color: $main-color;
-    background-color: #ffffff;
+    &:hover {
+      color: $main-color;
+      background-color: $bckground-white-color;
+    }
   }
 }
